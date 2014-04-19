@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- row.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal"
+    android:paddingBottom="6dip"
+    android:paddingTop="4dip" >
+
+    <TextView
+        android:id="@+id/reg_acronym"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:id="@+id/reg_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/reg_ngr"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/reg_espb"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/reg_type"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/reg_count"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/reg_exam_profesor"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

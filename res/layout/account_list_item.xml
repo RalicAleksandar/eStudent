@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- payment_list_item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="6dip"
+    android:paddingTop="4dip" >
+
+    <View
+        android:id="@+id/vertical_separator"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/account_change_time"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/account_change_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_change_time"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/account_detail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/account_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_change_time"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_detail"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/account_in"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/account_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_detail"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_in"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/account_out"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/account_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_in"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_out"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/account_state"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/account_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_out"
+        android:layout_toRightOf="@id/vertical_separator" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_state"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/account_change_type"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/account_change_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_state"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+</RelativeLayout>

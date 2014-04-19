@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#454545"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/info_date_from"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+    <TextView
+        android:id="@+id/info_date_to"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+    <TextView
+        android:id="@+id/info_content_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+    <TextView
+        android:id="@+id/info_content_exclusive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+    <TextView
+        android:id="@+id/info_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+    <TextView
+        android:id="@+id/info_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+</LinearLayout>

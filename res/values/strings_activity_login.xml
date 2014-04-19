@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="username_hint">Korisnicko ime</string>
+    <string name="password_hint">Lozinka</string>
+    <string name="button_hint">Prijavi se</string>
+    <string name="action_sign_in_short">Prijavi se</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Prijavljujem se&#8230;</string>
+    <string name="error_invalid_email">Pogresno korisnicko ime</string>
+    <string name="error_invalid_password">Lozinka je prekratka</string>
+    <string name="error_incorrect_password">Pogresna lozinka</string>
+    <string name="error_username_field_required">Korisnicko ime je obavezno</string>
+    <string name="error_password_field_required">Lozinka je obavezna</string>
+
+</resources>

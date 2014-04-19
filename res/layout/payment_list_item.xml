@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- payment_list_item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="6dip"
+    android:paddingTop="4dip" >
+
+   <!--  <View
+        android:id="@+id/horizontal_separator"
+        android:layout_width="200dp"
+        android:layout_height="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/action_bar_color" />
+    
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/payment_type"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" 
+ -->
+    <View
+        android:id="@+id/vertical_separator"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/payment_type"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/payment_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_type"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/payment_date"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/payment_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_type"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_date"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/amount" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/payment_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_date"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_amount"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/payment_specs"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/payment_specification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_amount"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+</RelativeLayout>

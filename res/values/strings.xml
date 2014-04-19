@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eStudent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="action_websearch">Search</string>
+    <string name="title_activity_drawer_activity_main">DrawerActivityMain</string>
+
+    <string-array name="my_list_items">
+        <item>Obaveštenja</item>
+        <item>Školarine i uplate</item>
+        <item>Školarine</item>
+        <item>Uplate</item>
+        <item>Stanje racuna</item>
+    </string-array>
+
+    <string name="welcome_string">Dobrodosli</string>
+    <string name="title_activity_logout">LogoutActivity</string>
+    <string name="acronym">Akronim</string>
+    <string name="exam_title">Naziv ispita</string>
+    <string name="count">R.b.</string>
+    <string name="grade">Ocena</string>
+    <string name="month">Rok</string>
+    <string name="ngr">N.gr.</string>
+    <string name="reg_type">Tip prijave</string>
+    <string name="reg_count">Broj prijava</string>
+    <string name="points">Poeni</string>
+    <string name="espb">Espb</string>
+    <string name="date">Datum polaganja</string>
+    <string name="sigh_profesor">Potpisao nastavnik</string>
+    <string name="profesor">Nastavnik</string>
+
+    <!-- Enrolment strings -->
+
+    <string name="schship_year">Skolska godina</string>
+    <string name="study_year">Godina studija</string>
+    <string name="schship_status">Status upisa</string>
+    <string name="schship_method">Nacin upisa</string>
+    <string name="schship_profile">Profil</string>
+    <string name="schship_statute">Statut</string>
+    <string name="schship_times">Koji put</string>
+    <string name="schship_acronym_profile">Akronim</string>
+    <string name="schship_enroll_date">Datum upisa</string>
+    <string name="schship_espb">ESPB</string>
+    <string name="done_obl">Odradjene</string>
+    <string name="not_done_obl">Neodradjene</string>
+    <string name="obligation">Obaveza</string>
+    <string name="obl_type">Tip obaveze</string>
+    <string name="obl_title">Naziv</string>
+    <string name="obl_date">Datum</string>
+    <string name="schoolarship">Skolarine</string>
+    <string name="payment">Uplate</string>
+    <string name="accaunt">Racun studenta</string>
+    <string name="installment">Rata</string>
+    <string name="insall_number">Broj rata</string>
+    <string name="amount">Iznos</string>
+    <string name="deadline">Rok uplate</string>
+    <string name="payment_type">Tip uplate</string>
+    <string name="payment_date">Datum uplate</string>
+    <string name="payment_specs">Specifikacija</string>
+    <string name="account_change_time">Trenutak promene</string>
+    <string name="account_detail">Opis</string>
+    <string name="account_in">Uplata</string>
+    <string name="account_out">Isplata</string>
+    <string name="account_state">Stanje na racunu</string>
+    <string name="account_change_type">Tip promene</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="possible_registrations">Ispiti koje mogu da prijavim</string>
+    <string name="valid_registrations">Prijavljeni ispiti</string>
+
+</resources>

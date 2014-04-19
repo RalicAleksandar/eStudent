@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- payment_list_item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="6dip"
+    android:paddingTop="4dip" >
+
+    <View
+        android:id="@+id/vertical_separator"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_year"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_year"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/study_year"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_study_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_year"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_study_year"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_status"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_study_year"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_status"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_method"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_status"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_method"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_acronym_profile"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_acronym_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_method"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_acronym_profile"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_profile"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_acronym_profile"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_profile"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_enroll_date"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_enroll_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_profile"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_enroll_date"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_espb"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_espb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_enroll_date"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_espb"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/schship_times"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_espb"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_times"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/installment"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_installment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_times"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_installment"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/insall_number"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_inst_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_installment"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_inst_number"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/amount"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_inst_number"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_amount"
+        android:layout_toLeftOf="@id/vertical_separator"
+        android:text="@string/deadline"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schship_deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schship_amount"
+        android:layout_toRightOf="@id/vertical_separator" />
+
+</RelativeLayout>

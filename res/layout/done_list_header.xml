@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- row.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:background="#454545"
+        android:text="@string/acronym"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/done_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#454545"
+        android:text="@string/obl_title"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/done_obl"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="#454545"
+        android:text="@string/obligation"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/done_espb"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="#454545"
+        android:gravity="center"
+        android:text="@string/espb"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/done_points"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="#454545"
+        android:gravity="center"
+        android:text="@string/points"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/done_type"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="#454545"
+        android:text="@string/obl_type"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/done_date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#454545"
+        android:text="@string/obl_date"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
