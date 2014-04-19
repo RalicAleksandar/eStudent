@@ -20,7 +20,7 @@ public class ScholarShipFragment extends BaseFragment {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+
 		super.onCreate(savedInstanceState);
 		setRetainInstance(true);
 		TAG = "SCH_FRAG";
@@ -32,7 +32,7 @@ public class ScholarShipFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+
 		View view = inflater.inflate(R.layout.fragment_scholar_ship, container,
 				false);
 		mContentView = view.findViewById(R.id.scholarship_table);
@@ -44,7 +44,7 @@ public class ScholarShipFragment extends BaseFragment {
 
 	@Override
 	public void onStart() {
-		// TODO Auto-generated `method stub
+
 		super.onStart();
 		if (mSchList != null) {
 			loadData();
@@ -62,9 +62,9 @@ public class ScholarShipFragment extends BaseFragment {
 						R.id.schship_study_year, R.id.schship_status,
 						R.id.schship_method, R.id.schship_acronym_profile,
 						R.id.schship_profile, R.id.schship_enroll_date,
-						R.id.schship_espb, R.id.schship_times, R.id.schship_installment,
-						R.id.schship_inst_number, R.id.schship_amount,
-						R.id.schship_deadline });
+						R.id.schship_espb, R.id.schship_times,
+						R.id.schship_installment, R.id.schship_inst_number,
+						R.id.schship_amount, R.id.schship_deadline });
 
 		mSchoolarshipList.setAdapter(mScholarshipAdapter);
 		showSpinner(false);

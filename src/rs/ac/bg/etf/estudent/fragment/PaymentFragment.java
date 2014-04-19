@@ -7,7 +7,6 @@ import java.util.Map;
 import rs.ac.bg.etf.estudent.R;
 import rs.ac.bg.etf.estudent.http.ServerAsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,7 +21,7 @@ public class PaymentFragment extends BaseFragment {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+
 		super.onCreate(savedInstanceState);
 		setRetainInstance(true);
 		TAG = "PAY_FRAG";
@@ -33,7 +32,7 @@ public class PaymentFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+
 		View view = inflater.inflate(R.layout.fragment_payment, container,
 				false);
 
@@ -45,7 +44,7 @@ public class PaymentFragment extends BaseFragment {
 
 	@Override
 	public void onStart() {
-		// TODO Auto-generated `method stub
+
 		super.onStart();
 		if (mPayList != null) {
 			loadData();
@@ -55,7 +54,7 @@ public class PaymentFragment extends BaseFragment {
 	private void loadData() {
 		mPayList = new ArrayList<Map<String, String>>();
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("tipUplate","skolarina");
+		map.put("tipUplate", "skolarina");
 		map.put("datumUplate", "1.1.2013");
 		map.put("iznosUplate", "33000");
 		map.put("specifikacija", "Rata za skolarinu");
@@ -65,10 +64,10 @@ public class PaymentFragment extends BaseFragment {
 		mPayList.add(map);
 
 		mPaymentAdapter = new SimpleAdapter(getActivity(), mPayList,
-				R.layout.payment_list_item, new String[] { "tipUplate", "datumUplate",
-						"iznosUplate", "specifikacija" }, new int[] { R.id.payment_type,
-						R.id.payment_date, R.id.payment_amount,
-						R.id.payment_specification });
+				R.layout.payment_list_item, new String[] { "tipUplate",
+						"datumUplate", "iznosUplate", "specifikacija" },
+				new int[] { R.id.payment_type, R.id.payment_date,
+						R.id.payment_amount, R.id.payment_specification });
 
 		mPaymentList.setAdapter(mPaymentAdapter);
 		showSpinner(false);
